@@ -1,0 +1,29 @@
+#HeaderSection{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.AllFilms{
+    width: 47.5%;
+    margin: 0 auto;
+}
+
+.FilmsContainer{
+    width: 100%;
+}
+
+.HeaderFilmsInfo{
+    color: white;
+    background-color: #00000066;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.HeaderFilmsInfo i{
+    padding-right: 15px;
+    color: aqua;
+}

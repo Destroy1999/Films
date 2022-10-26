@@ -1,0 +1,128 @@
+#SectionAdminLogIn{
+    background-color: #1B173C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+}
+
+#SectionAdminLogIn .LogInAdminContainer{
+    background-color: darkcyan;
+    border: solid white;
+    padding: 7.5%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px #00ff0057;
+}
+
+#SectionAdminLogIn .LogInAdminContainer h1{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#SectionAdminLogIn .LogInAdminContainer form{
+
+}
+
+#SectionAdminLogIn .LogInAdminContainer form div{
+    margin-top: 10px;
+}
+
+#SectionAdminLogIn .LogInAdminContainer form div label{
+    color: white;
+}
+
+#SectionAdminLogIn .LogInAdminContainer form div div{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#SectionAdminLogIn .LogInAdminContainer form div div input{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+}
+
+#SectionAdminLogIn .LogInAdminContainer form div div .fas{
+    padding: 20px;
+    width: 0;
+    height: 0;
+    background-color: darkred;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#SectionAdminLogIn .LogInAdminContainer form div:nth-child(3){
+    margin-top: 40px;
+}
+
+#SectionAdminLogIn .LogInAdminContainer form div button{
+    width: 100%;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.LogInAdminSettings{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.LogInAdminSettings div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.LogInAdminSettings #AdminRememberME{
+    width: 26px;
+    height: 16px;
+    background-color: inherit;
+    border: solid 1px black;
+    border-radius: 16px;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogInAdminSettings #AdminRememberME #AdminCheckboxCircle{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.LogInAdminSettings div:nth-child(1) p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+}

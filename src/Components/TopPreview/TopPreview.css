@@ -1,0 +1,98 @@
+#TopFilmsPreview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 25px;
+    background-color: #00000066;
+    margin-top: 50px;
+}
+
+#TopFilmsPreview .TopFilmInfo{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.TopFilmsPreviewContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/*--------------------------------------*/
+/*Auto Carousel*/
+
+/*.carousel-inner{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    border:solid*/
+/*}*/
+
+/*.carousel-item{*/
+/*    width: 10.5%;*/
+/*}*/
+
+
+
+
+/*-----------------------*/
+/*My carousel*/
+/*.TopFilmsPreviewContainer{*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    position: relative;*/
+/*}*/
+
+/*.SlideItemsContainer{*/
+/*    width: 70%;*/
+/*}*/
+
+/*.C-Item{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    padding: 25px 0px 25px 0px;*/
+/*}*/
+
+/*.C-SlideQuantity{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    width: 25%;*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*}*/
+
+/*.C-SlideQuantity li{*/
+/*    list-style: none;*/
+/*}*/
+
+/*.C-Next{*/
+/*    font-size: 150px;*/
+/*    right: 50px;*/
+/*    position: absolute;*/
+/*    color: gray;*/
+/*}*/
+
+/*.C-Prev{*/
+/*    font-size: 150px;*/
+/*    left: 50px;*/
+/*    position: absolute;*/
+/*    color: gray;*/
+/*}*/
+
+/*.C-Next:hover,.C-Prev:hover{*/
+/*    color: white;*/
+/*}*/
+
+/*.active{*/
+/*    display: block;*/
+/*    color: wheat;*/
+/*}*/

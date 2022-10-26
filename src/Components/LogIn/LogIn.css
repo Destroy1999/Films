@@ -1,0 +1,146 @@
+.LogInWindow{
+    z-index: 100;
+    padding: 5%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: 1s;
+    background-color: #255784;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .9;
+}
+
+.LogInContainer{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 35px;
+}
+
+.LogInContainer h2{
+    color: white;
+    font-size: 50px;
+}
+
+.LogInContainer form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.FormInputsControl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+form label{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.FormInputsControl input{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.FormInputsControl i{
+    color: white;
+    background-color: darkred;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.LogInContainer form button{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+}
+
+.LogInWindow #LogInCloseBTN{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+
+.LogInWindow #LogInCloseBTN i{
+    color: white;
+    transition: .2s;
+    font-size: 50px;
+}
+
+.LogInWindow #LogInCloseBTN:hover i{
+    color: red;
+    text-shadow: 0px 0px 10px aqua;
+    transform: rotate(-90deg);
+}
+
+.LogInSetting{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.LogInSetting div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.LogInSetting #RememberME{
+    width: 26px;
+    height: 16px;
+    background-color: inherit;
+    border: solid 1px black;
+    border-radius: 16px;
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogInSetting #RememberME #CheckboxCircle{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.LogInSetting div:nth-child(1) p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+}

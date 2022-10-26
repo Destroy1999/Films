@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body::-webkit-scrollbar {
+    background: linear-gradient(purple, mediumpurple, rebeccapurple);
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #ffffff00;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkblue;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: blue;
+}
+
+body::-webkit-scrollbar-button{
+    padding: 25px;
+}
+
+body::-webkit-scrollbar-button:decrement:start {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Red_Arrow_Up.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 50%;
+    background-color: darkblue;
+}
+
+body::-webkit-scrollbar-button:increment:end {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Red_Arrow_Down.svg/1024px-Red_Arrow_Down.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50% 50%;
+    background-color: darkblue;
+}
+
+body::-webkit-scrollbar-button:decrement:hover,body::-webkit-scrollbar-button:increment:hover{
+    background-color: blue;
+}
+
+body{
+    background-image: url("Images/back.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}

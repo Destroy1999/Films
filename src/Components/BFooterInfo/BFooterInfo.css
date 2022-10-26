@@ -1,0 +1,40 @@
+#BFooter{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2C3E50;
+}
+
+#BFooter div{
+    width: 45%;
+}
+
+.SiteInfo{
+
+}
+
+.SiteInfo p{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.CallBack{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.CallBack span{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.CallBack span i{
+    color: lightblue;
+    padding-left: 50px;
+}
